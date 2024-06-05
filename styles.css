@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'din-condensed';
-  src: url('../fonts/DINCondensed-Bold.ttf');
+  src: url('./Assets/fonts/DINCondensed-Bold.ttf');
 }
 body {
   background: #000;
