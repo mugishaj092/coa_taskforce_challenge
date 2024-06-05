@@ -1,17 +1,17 @@
 # COA-Taskforce-challenge
 
-## 🧬 Live Site
+## Live Site
 
-**_[Live Site](https://coa-taskforce-challenge-test.vercel.app)_**
+**_[Live Site](https://coa-taskforce-challenge-beta.vercel.app/)_**
 
-## ⏯️ Table of Contents
+## Table of Contents
 
 1. [Project Description](#project-description)
 2. [Setup Instructions](#setup-instructions)
 3. [Usage](#usage)
 4. [Coding Challenges](#coding-challenges)
-   - [Challenge 1: Subarray with Target Sum](#challenge-subarray-with-target-sum)
-   - [Challenge 2: String Transformation](#challenge-string-transformation)
+   - [Challenge 1: Subarray with Target Sum](#challenge-1-subarray-with-target-sum)
+   - [Challenge 2: String Transformation](#challenge-2-string-transformation)
 
 ## Project Description
 
@@ -21,7 +21,7 @@ This project contains two main parts:
 2. **Coding Challenges**: Solutions to two algorithmic problems.
 
 
-## 📍 Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**:
    ```bash
@@ -57,7 +57,7 @@ Given an array of integers and a target sum, determine if there exists a contigu
 ```javascript
 const arr = [4, 2, 7, 1, 9, 5];
 const target = 17;
-console.log(containsSubarraySum(arr, target));
+console.log(containsSubarraySum(arr, target)); // Output: true
 ```
 
 ### Challenge 2: String Transformation
@@ -71,6 +71,6 @@ Given a string, transform it based on the following rules:
 #### Example:
 
 ```javascript
-console.log(transformString('Hamburger'));
-console.log(transformString('Pizza'));
+console.log(transformString('Hamburger')); // Output: "regrubmaH"
+console.log(transformString('Pizza')); // Output: "80 105 122 122 97"
 ```
